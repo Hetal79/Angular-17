@@ -1,0 +1,5 @@
+<p>test works!</p>
+<h1>This is test (parent) component</h1>
+<p>data from child component {{cdata}}</p>
+<input type="text" #parentInput (keyup)="0">
+<app-child  (event)="getChildData($event)"></app-child>
